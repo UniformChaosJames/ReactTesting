@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "redux": "^3.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,7 +30,7 @@
     "require": [
       "babel-register",
       "ignore-styles",
-	  "./src/test-setup"
+      "./src/test-setup"
     ]
   }
 }
